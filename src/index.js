@@ -6,7 +6,6 @@ import Routes from './Routes';
 import {BrowserRouter} from "react-router-dom";
 
 const root = document.getElementById('root');
-console.log("root", rout);
 ReactDOM.render(
     <React.StrictMode>
       <BrowserRouter basename='/test/rbuild/'>
